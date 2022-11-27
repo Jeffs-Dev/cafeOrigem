@@ -1,0 +1,55 @@
+.slideshow-bg {
+  background-image: url("../img/general/fundo-café.png");
+  background-color: red;
+  height: 500px;
+}
+
+.slideshow-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.menu-slide-pass {
+  display: flex;
+  gap: 10px;
+  color: var(--corBase01);
+}
+
+.menu-slide-pass span {
+  color: var(--corBase01);
+}
+
+.slideshow-title {
+  line-height: 1;
+  font-weight: 400;
+}
+
+.slideshow-content > p {
+  font-size: 1rem;
+  width: 600px;
+  margin-top: 40px;
+}
+
+.menu-slide-pass {
+  position: absolute;
+  font-size: 1.25rem;
+  top: 470px;
+}
+
+@media (max-width: 840px) {
+  .slideshow-title {
+    font-size: 1.75rem;
+  }
+
+  .slideshow-content > p {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
